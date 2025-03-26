@@ -1,131 +1,123 @@
 [
-    {
-      "name": "Wireless Earbuds",
-      "price": 29.99,
-      "description": "High-quality wireless earbuds with noise cancellation and long battery life.",
-      "ratings": "4.5",
-      "images": [
-        {
-          "image": "https://example.com/images/earbuds1.jpg"
-        },
-        {
-          "image": "https://example.com/images/earbuds2.jpg"
-        }
-      ],
-      "category": "Headphones",
-      "seller": "Tech Store",
-      "stock": 15,
-      "numOfReviews": 8,
-      "reviews": [
-        {
-          "name": "John Doe",
-          "rating": "5",
-          "comment": "Amazing sound quality and comfort!"
-        },
-        {
-          "name": "Jane Smith",
-          "rating": "4",
-          "comment": "Great product, but battery life could be better."
-        }
-      ],
-      "createdAt": "2025-01-28T08:00:00Z"
-    },
-    {
-      "name": "Gaming Laptop",
-      "price": 1199.99,
-      "description": "Powerful gaming laptop with high-performance graphics and fast processing speed.",
-      "ratings": "4.8",
-      "images": [
-        {
-          "image": "https://example.com/images/laptop1.jpg"
-        }
-      ],
-      "category": "Laptops",
-      "seller": "Gamer Hub",
-      "stock": 10,
-      "numOfReviews": 25,
-      "reviews": [
-        {
-          "name": "Alice Green",
-          "rating": "5",
-          "comment": "Handles all my games smoothly, absolutely worth it!"
-        }
-      ],
-      "createdAt": "2025-01-27T12:00:00Z"
-    },
-    {
-      "name": "Yoga Mat",
-      "price": 19.99,
-      "description": "Durable and non-slip yoga mat for all your workout and stretching needs.",
-      "ratings": "4.2",
-      "images": [
-        {
-          "image": "https://example.com/images/yogamat1.jpg"
-        }
-      ],
-      "category": "Sports",
-      "seller": "Fitness Pro",
-      "stock": 50,
-      "numOfReviews": 12,
-      "reviews": [
-        {
-          "name": "Mike Brown",
-          "rating": "4",
-          "comment": "Good quality, but slightly thinner than expected."
-        }
-      ],
-      "createdAt": "2025-01-25T10:00:00Z"
-    },
-    {
-      "name": "Bluetooth Speaker",
-      "price": 49.99,
-      "description": "Portable Bluetooth speaker with deep bass and waterproof design.",
-      "ratings": "4.7",
-      "images": [
-        {
-          "image": "https://example.com/images/speaker1.jpg"
-        }
-      ],
-      "category": "Electronics",
-      "seller": "Audio World",
-      "stock": 20,
-      "numOfReviews": 18,
-      "reviews": [
-        {
-          "name": "Emma White",
-          "rating": "5",
-          "comment": "Great sound quality and easy to carry!"
-        }
-      ],
-      "createdAt": "2025-01-26T09:00:00Z"
-    },
-    {
-      "name": "Running Shoes",
-      "price": 59.99,
-      "description": "Lightweight and comfortable running shoes for daily jogging and sports activities.",
-      "ratings": "4.6",
-      "images": [
-        {
-          "image": "https://example.com/images/shoes1.jpg"
-        }
-      ],
-      "category": "Clothing/shoes",
-      "seller": "Sporty Store",
-      "stock": 30,
-      "numOfReviews": 22,
-      "reviews": [
-        {
-          "name": "Chris Black",
-          "rating": "5",
-          "comment": "Super comfortable and stylish for daily wear!"
-        },
-        {
-          "name": "Sophie Turner",
-          "rating": "4",
-          "comment": "Good fit, but I wish there were more color options."
-        }
-      ],
-      "createdAt": "2025-01-24T15:00:00Z"
-    }
-  ]
+  {
+    "name": "Gaming Laptop",
+    "price": 1199.99,
+    "description": "Powerful gaming laptop with high-performance graphics and fast processing speed.",
+    "ratings": 0,
+    "images": [
+      {
+        "image": "/images/products/1.jpg"
+      }
+    ],
+    "category": "Laptops",
+    "seller": "Gamer Hub",
+    "stock": 10,
+    "numOfReviews": 0,
+    "reviews": [],
+    "createdAt": "2025-01-27T12:00:00Z"
+  },
+  {
+    "name": "Yoga Mat",
+    "price": 19.99,
+    "description": "Durable and non-slip yoga mat for all your workout and stretching needs.",
+    "ratings": "4.2",
+    "images": [
+      {
+        "image": "/images/products/2.jpg"
+      }
+    ],
+    "category": "Sports",
+    "seller": "Fitness Pro",
+    "stock": 50,
+    "numOfReviews": 12,
+    "reviews": [
+      {
+        "name": "Mike Brown",
+        "rating": "4",
+        "comment": "Good quality, but slightly thinner than expected."
+      }
+    ],
+    "createdAt": "2025-01-25T10:00:00Z"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 49.99,
+    "description": "Portable Bluetooth speaker with deep bass and waterproof design.",
+    "ratings": "4.7",
+    "images": [
+      {
+        "image": "/images/products/3.jpg"
+      }
+    ],
+    "category": "Electronics",
+    "seller": "Audio World",
+    "stock": 20,
+    "numOfReviews": 18,
+    "reviews": [
+      {
+        "name": "Emma White",
+        "rating": "5",
+        "comment": "Great sound quality and easy to carry!"
+      }
+    ],
+    "createdAt": "2025-01-26T09:00:00Z"
+  },
+  {
+    "name": "Running Shoes",
+    "price": 59.99,
+    "description": "Lightweight and comfortable running shoes for daily jogging and sports activities.",
+    "ratings": "4.2",
+    "images": [
+      {
+        "image": "/images/products/4.jpg"
+      }
+    ],
+    "category": "Clothing/shoes",
+    "seller": "Sporty Store",
+    "stock": 30,
+    "numOfReviews": 3,
+    "reviews": [
+      {
+        "name": "Chris Black",
+        "rating": "5",
+        "comment": "Super comfortable and stylish for daily wear!"
+      },
+      {
+        "name": "Sophie Turner",
+        "rating": "4",
+        "comment": "Good fit, but I wish there were more color options."
+      },
+      {
+        "name": "Anonymous",
+        "rating": "4.2",
+        "comment": "Testing create review"
+      }
+    ],
+    "createdAt": "2025-01-24T15:00:00Z"
+  },
+  {
+    "name": "YONEX Badminton Racquet",
+    "price": 19.99,
+    "description": "Test non-slip yoga mat for all your workout and stretching needs.",
+    "ratings": "4.2",
+    "images": [
+      {
+        "image": "/images/products/5.jpg"
+      }
+    ],
+    "category": "Sports",
+    "seller": "Fitness Pro",
+    "stock": 50,
+    "numOfReviews": 12,
+    "reviews": [
+      {
+        "name": "Mike Brown",
+        "rating": "4",
+        "comment": "Good quality, but slightly thinner than expected."
+      }
+    ],
+    "createdAt": "2025-01-25T10:00:00Z"
+  }
+]
+
   
