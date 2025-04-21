@@ -38,7 +38,7 @@ export default function ProductDetail () {
         if(count.valueAsNumber == 1 ) return;
         const qty = count.valueAsNumber - 1;
         setQuantity(qty);
-    }
+    } 
 
     const [show, setShow] = useState(false);
 

@@ -1,9 +1,9 @@
 import { Helmet } from "react-helmet-async"
 
 export default function MetaData({title}) {
-    return(
+    return (
         <Helmet>
-            <title>{`${title}-scareX`}</title>
+            <title>{`${title} - JVLcart`}</title>
         </Helmet>
     )
 }
